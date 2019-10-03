@@ -8,7 +8,7 @@ public abstract class AbstractAnimal
 	protected int yearDiscovered;
 
 	//constructors
-	int itemId = 0;
+	private static int itemId = 0;
 	public AbstractAnimal(String name, int yearDiscovered)
 	{
 		this.number = itemId;
@@ -20,6 +20,16 @@ public abstract class AbstractAnimal
 	public String consumeFood()
 	{
 		return "This animal has consumed food.";
+	}
+
+	public String getName()
+	{
+		return name;
+	}
+
+	public int getYearDiscovered()
+	{
+		return yearDiscovered;
 	}
 
 	// abstract methods

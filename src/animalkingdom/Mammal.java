@@ -14,18 +14,18 @@ public class Mammal extends AbstractAnimal
 	@Override
 	public String move()
 	{
-		return "The " + this.name + " has moved via walking.";
+		return "walking";
 	}
 
 	@Override
 	public String breath()
 	{
-		return "The " + this.name + " has breathed via its lungs.";
+		return "lungs";
 	}
 
 	@Override
 	public String reproduce()
 	{
-		return "The " + this.name + " has reproduced via live birth.";
+		return "live birth";
 	}
 }

@@ -14,18 +14,18 @@ public class Fish extends AbstractAnimal
 	@Override
 	public String move()
 	{
-		return "The fish has moved via swimming.";
+		return "swimming";
 	}
 
 	@Override
 	public String breath()
 	{
-		return "The fish has breathed via its gills.";
+		return "gills";
 	}
 
 	@Override
 	public String reproduce()
 	{
-		return "The fish has reproduced via eggs.";
+		return "eggs";
 	}
 }

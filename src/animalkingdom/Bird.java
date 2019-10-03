@@ -14,18 +14,18 @@ public class Bird extends AbstractAnimal
 	@Override
 	public String move()
 	{
-		return "The bird has moved via flying.";
+		return "flying";
 	}
 
-		@Override
+	@Override
 	public String breath()
 	{
-		return "The bird has breathed via its lungs.";
+		return "lungs";
 	}
 
 	@Override
 	public String reproduce()
 	{
-		return "The bird has reproduced via eggs.";
+		return "eggs";
 	}
 }
